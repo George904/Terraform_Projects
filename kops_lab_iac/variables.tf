@@ -16,5 +16,5 @@ variable "myip" {
 variable "key_pair_name" {
   description = "The name of the SSH key pair to use for the kops server"
   type        = string
-  default     = "misc_keypair"
+  default     = "your_keypair"
 }
