@@ -11,7 +11,7 @@ variable "instance_type" {
 variable "myip" {
   description = "Your IP address in CIDR notation (e.g., 123.456.789.0/32)"
   type        = string
-  default     = "70.112.39.53/32" # Replace with your actual IP
+  default     = "123.456.789.098/32" # Replace with your actual IP
 }
 variable "key_pair_name" {
   description = "The name of the SSH key pair to use for the kops server"
